@@ -20,13 +20,14 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: #000000;
-    /* align-items: center; */
 }
 
 .container {
     width: 80vw;
-    min-height: 100vh;
+    height: 80vh;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
